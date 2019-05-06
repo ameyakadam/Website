@@ -1,0 +1,250 @@
+﻿body {
+    background-color: yellow;
+}
+.header{
+    text-align:center;
+    background-color:white;
+}
+header{
+    color:white;
+    background-color:orange;
+}
+h1 {
+    text-align: center;
+   
+}
+h2{
+    text-align:center;
+}
+h3{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.headerimage{
+    float:left;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    animation: bar 4s ease;
+    -webkit-animation: bar 4s ease;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    animation: bar 4s ease;
+    -webkit-animation: bar 4s ease;
+}
+nav{
+    background-color:orange;
+   width:100%;
+   
+    font-size:1.2em;
+}
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:30px;
+}
+nav a:hover{
+    background-color:black;
+    color:wheat;
+}
+@keyframes bar{
+    from{
+        margin-bottom:100%;
+    }
+    to{
+        margin-bottom:1%
+    }
+}
+.intro{
+    font-weight:bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left:50px;
+    margin-right:50px;
+    color:white;
+    background-color:orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.ourconsole {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.populargames {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.AmazingGames {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.caleen {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.preorder {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.BuyNow {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+section{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+section #login {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    text-align:center;
+    
+}
+#logintable {
+    background-color: orange;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#loginfooter{
+    margin-top:280px;
+}
+section #signup {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    text-align: center;
+}
+
+#signuptable {
+    background-color: orange;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signupfooter {
+    margin-top: 230px;
+}
+section #ordernow {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    text-align: center;
+}
+
+#ordernowtable {
+    background-color: orange;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ordernowfooter {
+    margin-top: 340px;
+}
+#cartfooter {
+    margin-top: 400px;
+}
+.NetworkStatus {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.passwordreset {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.systemupdate {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+.needservice {
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    animation: bar 3s ease;
+    -webkit-animation: bar 3s ease;
+}
+footer{
+    background-color:orange;
+    color:white;
+    text-align:center;
+    height:48px;
+    font-size:1.2em;
+}
+#cart {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    text-align: center;
+}
